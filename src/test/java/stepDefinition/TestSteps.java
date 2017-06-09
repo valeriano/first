@@ -41,10 +41,10 @@ public class TestSteps {
     System.out.println("Login Successfully");
   }
 
-  //	@When("^User LogOut from the Application$")
-  //	public void user_LogOut_from_the_Application() throws Throwable {
-  //		driver.findElement(By.xpath(".//*[@id='account_logout']/a")).click();
-  //	}
+  @When("^User LogOut from the Application$")
+  public void user_LogOut_from_the_Application() throws Throwable {
+    //  		driver.findElement(By.xpath(".//*[@id='account_logout']/a")).click();
+  }
 
   @Then("^Message displayed LogOut Successfully$")
   public void message_displayed_LogOut_Successfully() throws Throwable {
